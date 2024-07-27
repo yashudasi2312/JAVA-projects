@@ -1,0 +1,12 @@
+public class Main{
+    public static void main(String args[]){
+        int a = 10;
+        short s = 12245;
+        byte b = 123;
+        long l = 67397209;
+        System.out.println("Integer data type - " + a);
+        System.out.println("Short data type - " + s);
+        System.out.println("Byte data type - " + b);
+        System.out.println("Long data type - " + l);
+    }
+}

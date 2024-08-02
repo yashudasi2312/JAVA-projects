@@ -1,0 +1,22 @@
+//check if a number is prime,composite or even
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    if(a%2 == 0){
+        System.out.println("It is even.");
+    }
+    else{
+        System.out.println("It is odd.");
+    }
+    
+    for(int i = 2;i<a;i++){
+            if(a%i == 0){
+                System.out.println("It is composite.");
+                return;
+            }
+        }
+    System.out.println("It is prime.");
+    }
+}

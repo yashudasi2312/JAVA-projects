@@ -1,0 +1,20 @@
+class ABC{
+    
+    ABC(int a){
+        System.out.println(a);
+    }
+    ABC(String s){
+        System.out.println(s);
+    }
+    ABC(int k , int j){
+        System.out.println(k * j);
+    }
+}
+
+public class Main{
+    public static void main(String args[]){
+        ABC s1 = new ABC(5);
+        ABC s2 = new ABC("yash");
+        ABC s3 = new ABC(3, 5);
+    }
+}

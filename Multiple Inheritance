@@ -1,0 +1,21 @@
+interface printable{
+    void print();
+}
+
+interface showable{
+    void print();
+}
+
+class Main implements printable, showable{
+    public void print(){
+        System.out.println("namaste");
+    }
+    public void show(){
+        System.out.println("konichiwa");
+    }
+    public static void main(String args[]){
+        Main shobhit = new Main();
+        shobhit.print();
+        shobhit.show();
+    }
+}

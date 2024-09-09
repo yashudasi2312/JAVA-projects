@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class ABC{
+    ABC(){
+        System.out.println("yash");
+    }
+}
+public class Main{
+    public static void main(String args[]){
+        ABC s1 = new ABC();
+    }
+}

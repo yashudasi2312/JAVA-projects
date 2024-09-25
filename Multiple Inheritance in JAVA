@@ -1,0 +1,23 @@
+interface A{
+    void add(int x,int y);
+}
+interface B{
+    void sub(int x,int y);
+}
+
+class s1 implements A,B{
+    public void add(int x , int y){
+        System.out.println(x+y);
+    }
+    public void sub(int x , int y){
+        System.out.println(x-y);
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        s1 s = new s1();
+        s.add(2,5);
+        s.sub(5,6);
+    }
+}

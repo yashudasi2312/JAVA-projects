@@ -1,0 +1,13 @@
+public class Main{
+    public static void main(String args[]){
+        try{
+            int y = 9/0;
+            int arr[] = new int[-9];
+            
+        }catch(NegativeArraySizeException e){
+            System.out.println(e);
+        }catch(ArithmeticException e){
+            System.out.println(e);
+        }
+    }
+}
